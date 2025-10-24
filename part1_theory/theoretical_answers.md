@@ -35,3 +35,29 @@ Jupyter notebooks serve as executable documentation in the sense that they combi
 ## Question 3: How does spaCy enhance NLP tasks compared to basic Python string operations?
 **Answer:**
 spaCy provides deep linguisting understanding that basic string operations do not have. Its understand words as verbs, tenses of words and not just the simple structure of how many elements are in a word or how to koin two words like string operations. spaCy is essential for tasks requiring linguistic understanding: information extraction, question answering, document classification, and machine translation preprocessing.
+
+## Question 4: Comparative Analysis - Scikit-learn vs TensorFlow
+
+### Comparison Table
+
+| **Dimension** | **Scikit-learn** | **TensorFlow** |
+|--------------|------------------|----------------|
+| **Primary Focus** | Classical Machine Learning | Deep Learning & Neural Networks |
+| **Problem Types** | Classification, Regression, Clustering, Dimensionality Reduction | Computer Vision, NLP, Time Series, Complex Pattern Recognition |
+| **Model Complexity** | Simple to Moderate (Linear, Tree-based, SVM) | Highly Complex (Multi-layer Neural Networks, CNNs, RNNs, Transformers) |
+| **Data Size** | Small to Medium datasets (< 1GB typically) | Large to Massive datasets (GBs to TBs) |
+| **Learning Curve** | Gentle (1-2 weeks for basics) | Steep (1-3 months for proficiency) |
+| **Training Speed** | Fast (seconds to minutes) | Slow (minutes to hours/days) |
+| **Best For Beginners** |Highly recommended |Requires ML fundamentals first |
+
+### 1. Target Applications
+
+**Scikit-learn** excels at traditional machine learning problems where the relationship between features and targets can be captured by statistical models or decision boundaries. It is optimized for **tabular data** (spreadsheet-like datasets) with well-defined features.
+
+**TensorFlow** is built for problems requiring **deep neural networks** to learn complex, non-linear patterns from raw, unstructured data. 
+
+### 2. Ease of Use for Beginners
+
+Scikit-learn follows a **consistent API philosophy** (all apis follow the same methods) that makes it exceptionally accessible to newcomers. Every estimator (model) implements the same methods: `.fit(X, y)` for training, `.predict(X)` for inference, and `.score(X, y)` for evaluation. This uniformity means learning one algorithm transfers to all others.
+
+TensorFlow offers multiple abstraction levels (Keras high-level API, functional API, low-level ops), which provides flexibility but confuses beginners.
