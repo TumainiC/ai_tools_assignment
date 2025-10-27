@@ -1,0 +1,39 @@
+================================================================================
+MNIST CNN MODEL - FINAL REPORT
+================================================================================
+
+Generated: 2025-10-27 12:04:50
+
+1. MODEL ARCHITECTURE
+================================================================================
+Total Parameters:       470,506
+Input Shape:            (28, 28, 1)
+Output Classes:         10
+
+2. TRAINING CONFIGURATION
+================================================================================
+Optimizer:              Adam (lr=0.001)
+Loss Function:          Categorical Crossentropy
+Batch Size:             64
+Epochs:                 20
+
+3. FINAL PERFORMANCE
+================================================================================
+Test Accuracy:          0.9957 (99.57%)
+Test Precision:         0.9958
+Test Recall:            0.9956
+Test F1-Score:          0.9957
+Target Achieved:        YES
+
+4. PER-CLASS PERFORMANCE
+================================================================================
+Digit 0: 0.9969
+Digit 1: 0.9991
+Digit 2: 0.9961
+Digit 3: 0.9980
+Digit 4: 0.9980
+Digit 5: 0.9944
+Digit 6: 0.9906
+Digit 7: 0.9951
+Digit 8: 0.9959
+Digit 9: 0.9921
