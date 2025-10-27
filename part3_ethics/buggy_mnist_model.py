@@ -1,7 +1,6 @@
 """
 Buggy MNIST Classification Script
 This code contains intentional errors for educational purposes.
-Students should identify and fix these bugs.
 """
 
 import numpy as np
