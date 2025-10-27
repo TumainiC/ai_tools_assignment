@@ -1,0 +1,113 @@
+================================================================================
+AMAZON PRODUCT REVIEWS - NLP ANALYSIS SUMMARY REPORT
+================================================================================
+
+Generated: 2025-10-27 13:26:17
+
+1. DATASET OVERVIEW
+================================================================================
+Total Reviews Analyzed:     5,000
+Data Source:                train.ft.txt.bz2
+Average Review Length:      434 characters
+
+2. RATING DISTRIBUTION
+================================================================================
+⭐ (1): 2,692 ( 53.8%)
+⭐⭐ (2): 2,308 ( 46.2%)
+
+Most Common Rating:         ⭐ (1 stars)
+
+3. NAMED ENTITY RECOGNITION (NER) RESULTS
+================================================================================
+Total Entity Mentions:      17,314
+Unique Entities:            7,941
+Entity Types Found:         18
+
+Entity Type Distribution:
+  PERSON         :  3,999 mentions
+  ORG            :  3,317 mentions
+  CARDINAL       :  2,836 mentions
+  DATE           :  2,228 mentions
+  ORDINAL        :  1,012 mentions
+  GPE            :    972 mentions
+  NORP           :    737 mentions
+  WORK_OF_ART    :    570 mentions
+  TIME           :    480 mentions
+  MONEY          :    270 mentions
+
+Top 15 Most Mentioned Entities:
+  first                         :   621 mentions
+  one                           :   495 mentions
+  two                           :   294 mentions
+  Amazon                        :   226 mentions
+  2                             :   182 mentions
+  second                        :   154 mentions
+  One                           :   154 mentions
+  3                             :   146 mentions
+  three                         :   108 mentions
+  Christmas                     :   107 mentions
+  5                             :    91 mentions
+  1                             :    85 mentions
+  English                       :    84 mentions
+  today                         :    79 mentions
+  4                             :    73 mentions
+
+4. SENTIMENT ANALYSIS RESULTS
+================================================================================
+Positive  : 2,692 ( 53.8%)
+Negative  : 1,235 ( 24.7%)
+Neutral   : 1,073 ( 21.5%)
+
+Sentiment Score Statistics:
+  Mean:     0.2592
+  Median:   0.2727
+  Std Dev:  0.5715
+  Min:     -1.0000
+  Max:      1.0000
+
+5. RATING vs SENTIMENT CORRELATION
+================================================================================
+Pearson Correlation:        0.5800
+
+Average Sentiment by Rating:
+  ⭐ (1): -0.048
+  ⭐⭐ (2):  0.617
+
+6. ENTITY-SENTIMENT CORRELATION
+================================================================================
+Most Positive Entities (5+ mentions):
+  5.1                           :  1.000 (  5 mentions)
+  Titan                         :  1.000 (  6 mentions)
+  Truth                         :  1.000 (  5 mentions)
+  Yello                         :  0.961 (  6 mentions)
+  Nightwish                     :  0.865 (  7 mentions)
+  Atlanta                       :  0.864 (  5 mentions)
+  Smith                         :  0.855 (  6 mentions)
+  Celtic                        :  0.846 (  5 mentions)
+  Cambodia                      :  0.841 (  5 mentions)
+  1/2                           :  0.840 (  5 mentions)
+
+Most Negative Entities (5+ mentions):
+  50 minutes                    : -0.598 (  5 mentions)
+  30 minutes                    : -0.524 (  7 mentions)
+  Kingston                      : -0.517 (  5 mentions)
+  eMarks                        : -0.459 (  6 mentions)
+  two months                    : -0.372 (  6 mentions)
+  Jerry Lewis                   : -0.371 (  5 mentions)
+  Defective                     : -0.354 (  5 mentions)
+  AC                            : -0.353 ( 13 mentions)
+  two weeks                     : -0.340 (  8 mentions)
+  Cheaply                       : -0.337 (  5 mentions)
+
+7. KEY INSIGHTS
+================================================================================
+• Overall Sentiment: 53.8% Positive, 24.7% Negative
+• Sentiment-Rating Correlation: Moderate (0.580)
+• Average Entities per Review: 3.46
+• Most Mentioned Entity: first
+• Average Rating (Positive Reviews): 1.72 stars
+• Average Rating (Negative Reviews): 1.08 stars
+
+================================================================================
+END OF REPORT
+================================================================================
