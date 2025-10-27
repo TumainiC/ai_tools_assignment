@@ -1,7 +1,5 @@
 # Comprehensive Ethical Analysis: Bias in MNIST and Amazon Reviews Models
-
-**Author:** AI Tools Assignment - Part 3  
-**Date:** October 27, 2025  
+  
 **Models Analyzed:** MNIST CNN Digit Classifier (99.57% accuracy) & Amazon Reviews NLP System
 
 ---
